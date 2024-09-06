@@ -1,1 +1,0 @@
-import{b as r,d as s}from"./index-PVytKBtw.js";const _=(t,o)=>{const n=t.__vccOpts||t;for(const[e,c]of o)n[e]=c;return n},a={};function f(t,o){return r(),s("h1",null," 404 not Found")}const u=_(a,[["render",f]]);export{u as default};

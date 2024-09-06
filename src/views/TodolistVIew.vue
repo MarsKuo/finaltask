@@ -118,11 +118,11 @@ onMounted(async () => {
         title: '登入逾時，即將為您導回登入頁',
         text: "Something went wrong!",
         showConfirmButton: false,
-        timer: 1500
+        timer: 2000
       });
       setTimeout(() => {
         router.push('/login');
-      }, 1500);
+      }, 2000);
     }
 
   } else {
@@ -131,11 +131,11 @@ onMounted(async () => {
       title: '登入逾時，即將為您導回登入頁',
       text: "Something went wrong!",
       showConfirmButton: false,
-      timer: 1500
+      timer: 2000
     });
     setTimeout(() => {
       router.push('/login');
-    }, 1500);
+    }, 2000);
   }
 });
 

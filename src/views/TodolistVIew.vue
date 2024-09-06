@@ -217,7 +217,6 @@ const getTodoList = async () => {
         Authorization: `${token.value}`
       }
     })
-    console.log(response);
     todos.value = response.data.data;
   } catch (error) {
     console.log(error);

@@ -56,7 +56,6 @@ const signup = async () => {
           password: pwdSignup.value,
 
         })
-        console.log(response);
         messageSignup.value = `註冊成功，請重新登入`;
 
         Swal.fire({
